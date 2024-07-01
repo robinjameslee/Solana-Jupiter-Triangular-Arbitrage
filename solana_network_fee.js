@@ -13,14 +13,4 @@ async function getCurrentFee(endpoint) {
   }
 }
 
-// module.exports = { getCurrentFee };
 export default getCurrentFee;
-// // Usage example
-// const solanaEndpoint = 'https://api.mainnet-beta.solana.com';
-// getCurrentFee(solanaEndpoint)
-//   .then((fee) => {
-//     console.log(`Current network fee: ${fee} SOL`);
-//   })
-//   .catch((error) => {
-//     console.error('Error:', error);
-//   });
